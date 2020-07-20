@@ -25,3 +25,32 @@ O compose foi configurado usando 3 serviços (cada um referenciando um container
 - Frontend (usando Nginx)
 
 Foi feito o mínimo de código possível para que back e front funcionassem, sendo o foco do projeto a **configuração do docker compose**, mas com a aplicação funcionando de ponta a ponta.
+
+<br>
+
+## Projeto: Envio de E-mails com Workers
+
+Desenvolvimento de solução assíncrona de envio de e-mails de forma escalável.
+
+Estrutura:
+- Banco de Dados: Postgres
+- Frontend: Nginx
+- Backend: Python + Redis
+
+<p align="center">
+  <img  height='300' src='https://user-images.githubusercontent.com/45580434/87934887-651b8a00-ca66-11ea-88f1-8f916221ae39.png'>
+</p>
+<br>
+
+No projeto foram abordados os seguintes pontos:
+- Composição com o banco de dados
+- Uso de volumes e scripts de banco de dados
+- Desenvolvimento da camada frontend
+- Aplicativo para enfileirar mensagens
+- Configuração de proxy reverso
+- Redes, dependências e bancos de dados
+- Fila e workers
+- Escala
+- 12 Factors
+- Sobreescrevendo localmente
+
