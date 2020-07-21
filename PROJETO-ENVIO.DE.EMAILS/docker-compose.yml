@@ -44,7 +44,8 @@ services:
       - db
       - queue
     environment:
-      - DB_NAME=email_sender
+      #podia até apagar se quisesse, pq o valor foi sobrescrito
+      - DB_NAME=abc_sender
   queue:
     image: redis:3.2
     networks:
